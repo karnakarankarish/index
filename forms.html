@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="forms.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>signup</legend>
+      <form action="buttons.html">
+        <label>name</label><br />
+        <input
+          type="text"
+          placeholder="name"
+          value="karna"
+          class="subscribe-button"
+          required
+        /><br />
+        <style>
+          .subscribe-button {
+            background-color: red;
+            color: white;
+            border: none;
+            height: 30px;
+            width: 105px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: 2s;
+          }
+          .subscribe-button:hover {
+            background-color: green;
+          }
+          .subscribe-button:active {
+            background-color: blue;
+          }
+        </style>
+        <br />
+        <label>how are you</label><br />
+        <input
+          type="text"
+          value="I AM FINE"
+          class="howareyou-iamfine"
+          readonly
+        /><br />
+        <label> password</label><br />
+        <input
+          type="password"
+          placeholder="password"
+          class="password"
+          required
+        /><br />
+        <br />
+        <label>date</label><br />
+        <input type="date" class="date-put" required /><br />
+        <br />
+        <label>E-mail</label><br />
+        <input type="email" class="email" required /><br />
+        <label>gender</label>
+        <br />
+        <label>male</label>
+        <input type="radio" name="gender" />
+        <label>female</label>
+        <input type="radio" name="gender" />
+        <label>others</label>
+        <input type="radio" name="gender" /><br />
+        <label>discription</label>
+        <select>
+          <option value="karna" name="discription">karna</option>
+          <option value="karan" name="discription">karan</option>
+          <option value="karish" name="discription">karish</option>
+          <option value="rohini" name="discription">rohini</option>
+          <option value="kathirvel" name="discription">kathirvel</option>
+        </select>
+        <br />
+        <label>comments</label><br />
+        <textarea rows="10" cols="10" placeholder="any one write"></textarea>
+        <br />
+        <label>upload your resume</label><br />
+        <input type="file" /><br />
+        <label>color</label><br />
+        <input type="color" /><br />
+        <label>time</label><br />
+
+        <input type="time" /><br />
+        <input type="checkbox" />
+        <label>terms and condition</label><br /><br />
+        <input type="submit" />
+        <input type="reset"
+      </form>
+    </fieldset>
+    <style>
+      body {
+        background: repeating-linear-gradient(red, blue, green, yellow);
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ever makes clever css</title>
+  </head>
+  <body>
+    <h1 style="background-color: red; color: blue">apple</h1>
+    <h1 style="background-color: orange; color: green">orange</h1>
+    <h1 style="background-color: yellow; color: blueviolet">mango</h1>
+
+    <!--id name not used in whole file in multiple times-->
+
+    <h1 id="heading1">apple</h1>
+    <h1 id="heading2">orange</h1>
+    <h1 id="heading3">mango</h1>
+
+    <style>
+      #heading1 {
+        color: brown;
+      }
+      #heading2 {
+        background-color: fuchsia;
+      }
+      #heading3 {
+        color: blue;
+        background-color: cornflowerblue;
+      }
+    </style>
+
+    <!--class name used in whole file in multiple times-->
+
+    <h1 class="heading1">apple</h1>
+    <h1 class="heading2">orange</h1>
+    <h1 class="heading1">mango</h1>
+    <style>
+      .heading1 {
+        color: brown;
+      }
+      .heading2 {
+        background-color: fuchsia;
+      }
+      .heading1 {
+        color: blue;
+        background-color: cornflowerblue;
+      }
+    </style>
+    <h1 style="background-color: green; padding-top: 20px; margin: 20px">
+      hello
+    </h1>
+    <div></div>
+    <div class="box2"></div>
+    <style>
+      div {
+        background-color: red;
+        height: 100px;
+        width: 100px;
+      }
+    </style>
+    
+  </body>
+</html>
